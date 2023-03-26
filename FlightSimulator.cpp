@@ -1,9 +1,7 @@
 /*
 Author- Adit Chopra
 Date created- 21 October, 2021
-Assignment 2: Mechanical Engineering Case Study- Flight Speed Wind Simulator
-ENGR-UH-1000 Computer Programming for Engineers
-Problem:
+Problem Statement:
 To develop a software to generate a computer simulation of wind speed for a flight simulator. 
 The wind speed can be assumed as an average value and a gust value added to this average. 
 The software also incorporates storms (high speed winds) and microbursts (very high speed but short-timed storms which increase the wind speed dramatically). 
