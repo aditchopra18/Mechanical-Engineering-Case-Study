@@ -9,11 +9,11 @@ Computers produce random numbers using specialized algorithms. Currently, becaus
 The occurrence of storms and microbursts is contingent on probability. Checking this probability involves generating random integers between 0 and 1 and comparing them to the supplied probability. If the requirement is met, then storms and microbursts will be produced.
 
 ## Input/Output Description
-<>
+<img src = "Diagrams/Input Output Diagram.png" width = 800>
 
 The program accepts input from a file "simulationConfiguration.txt", which has data in the following manner:
 
-<>
+<img src = "Diagrams/Simulation Configuration Format.png" width = 700>
 
 This data is stored in three separate arrays- wind [], storm [], burst []. We now create three other files- WindSpeedData.txt, StormData.txt and BurstData.txt. The program according to random probabilities calculates wind speeds, storm speeds, and burst speeds and stores the data along with the time in WindSpeedData.txt, StormData.txt, BurstData.txt respectively. A final wind speed is calculated by adding the respective array values from the three arrays. This final wind speed is now stored along with time in the fourth file WindSimulator.txt.\
 Now, we can copy the data in all the 4 files and paste it in excel to draw Wind Speed graphs.
